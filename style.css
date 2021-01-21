@@ -1,0 +1,39 @@
+body{
+    background-color: lightcyan;
+    font-family: 'Yusei Magic', sans-serif;
+}
+
+table{
+  
+    border:palegreen;
+    border-style: outset;
+    padding: 2px;
+    margin: auto;
+    margin-top: 100px;
+
+}
+
+th{
+
+    
+    background-color:deepskyblue;
+    color: white;
+    text-align: center;
+}
+
+td{
+    border-bottom: 1px solid goldenrod;
+    text-align: right;
+    
+}
+
+.key_code{
+    text-align: center;
+    padding: 2px;
+}
+
+.key{
+    text-align: right;
+    padding: 2px;
+    padding-right: 4px;
+}
