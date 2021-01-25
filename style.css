@@ -19,12 +19,13 @@ th{
     background-color:deepskyblue;
     color: white;
     text-align: center;
+    padding: 10px;
+    
 }
 
 td{
     border-bottom: 1px solid goldenrod;
-    text-align: right;
-    
+  
 }
 
 .key_code{
@@ -33,7 +34,8 @@ td{
 }
 
 .key{
-    text-align: right;
+    text-align: left;
     padding: 2px;
-    padding-right: 4px;
+    padding-left: 40px;
+    padding-right: 20px;
 }
