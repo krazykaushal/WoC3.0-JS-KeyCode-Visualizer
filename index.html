@@ -8,7 +8,11 @@
     <title>KeyPress</title>
 </head>
 <body>
-    <div class="table">
+    <nav>
+        <button onclick="fun1()" class="btn" id="tbl_btn" ><b>Table</b></button>
+    <button onclick="fun2()" class="btn"><b>Toggle</b></button>
+    </nav>
+    <div id="table">
         <table>
             <thead class="table_head">
                 <tr>
@@ -30,6 +34,94 @@
         </table>  
         
     </div>
+
+    <div id="container">
+        <div id="main">
+  
+        </div>
+        <div class="others">
+          <div class="cards">
+            <table>
+              <tr>
+                <th>event.key</th>
+              </tr>
+              <tr>
+                <td id="key" class="values"></td>
+              </tr>
+            </table>
+          </div>
+  
+          <div class="cards">
+            <table>
+              <tr>
+                <th>event.location</th>
+              </tr>
+              <tr>
+                <td id="loc" class="values"></td>
+              </tr>
+            </table>
+          </div>
+
+          <div class="cards">
+            <table>
+              <tr>
+                <th>event.code</th>
+              </tr>
+              <tr>
+                <td id="code" class="values"></td>
+              </tr>
+            </table>
+          </div>
+  
+          <div class="cards">
+            <table>
+              <tr>
+                <th>event.shiftKey</th>
+              </tr>
+              <tr>
+                <td id="shift" class="values"></td>
+              </tr>
+            </table>
+          </div>
+  
+          <div class="cards">
+            <table>
+              <tr>
+                <th>event.ctrlKey</th>
+              </tr>
+              <tr>
+                <td id="ctrl" class="values"></td>
+              </tr>
+            </table>
+          </div>
+  
+          <div class="cards">
+            <table>
+              <tr>
+                <th>event.altKey</th>
+              </tr>
+              <tr>
+                <td id="alt" class="values"></td>
+              </tr>
+            </table>
+          </div>
+          
+          <div class="cards">
+            <table>
+              <tr>
+                <th>event.metaKey</th>
+              </tr>
+              <tr>
+                <td id="meta" class="values"></td>
+              </tr>
+            </table>
+          </div>
+
+          
+        </div>
+      </div>
+
+
     <script src="data.js"></script>
 </body>
 </html>
